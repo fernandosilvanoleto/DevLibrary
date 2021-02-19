@@ -1,0 +1,9 @@
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.deps.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.csprojAssemblyReference.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.AssemblyInfoInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.AssemblyInfo.cs
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.csproj.CoreCompileInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.pdb

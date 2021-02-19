@@ -1,0 +1,12 @@
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.deps.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.runtimeconfig.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.runtimeconfig.dev.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.csprojAssemblyReference.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.AssemblyInfoInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.AssemblyInfo.cs
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.csproj.CoreCompileInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infra.Persistence.genruntimeconfig.cache
