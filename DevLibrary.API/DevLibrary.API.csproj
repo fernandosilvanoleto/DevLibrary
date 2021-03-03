@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\DevLibrary.Application\DevLibrary.Application.csproj" />
+    <ProjectReference Include="..\DevLibrary.Core\DevLibrary.Core.csproj" />
+    <ProjectReference Include="..\DevLibrary.Infra.Persistence\DevLibrary.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

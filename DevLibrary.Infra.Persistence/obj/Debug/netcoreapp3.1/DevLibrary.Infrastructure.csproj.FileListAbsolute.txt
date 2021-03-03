@@ -1,0 +1,15 @@
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.csprojAssemblyReference.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.AssemblyInfoInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.AssemblyInfo.cs
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.deps.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.runtimeconfig.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.runtimeconfig.dev.json
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Core.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\bin\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.csproj.CopyComplete
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.dll
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.pdb
+G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Infra.Persistence\obj\Debug\netcoreapp3.1\DevLibrary.Infrastructure.genruntimeconfig.cache

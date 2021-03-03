@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevLibrary.API", "DevLibrary.API\DevLibrary.API.csproj", "{CF975D88-7FDA-4F94-92C4-8E82CF9768EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLibrary.Core", "DevLibrary.Core\DevLibrary.Core.csproj", "{8ECB18C2-DF15-4DD9-91C4-7B250911818E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevLibrary.Core", "DevLibrary.Core\DevLibrary.Core.csproj", "{8ECB18C2-DF15-4DD9-91C4-7B250911818E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLibrary.Infra.Persistence", "DevLibrary.Infra.Persistence\DevLibrary.Infra.Persistence.csproj", "{25941799-3676-4D70-9238-4F356F853805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevLibrary.Infrastructure", "DevLibrary.Infra.Persistence\DevLibrary.Infrastructure.csproj", "{25941799-3676-4D70-9238-4F356F853805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLibrary.Application", "DevLibrary.Application\DevLibrary.Application.csproj", "{9DF1287D-094A-45E7-A666-FFC12FC6D44F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevLibrary.Application", "DevLibrary.Application\DevLibrary.Application.csproj", "{9DF1287D-094A-45E7-A666-FFC12FC6D44F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,5 +16,7 @@ namespace DevLibrary.Core.Entities
         public ERegistroATA Situacao { get; set; }
         public int IdAluno { get; set; }
         public Alunos Aluno { get; set; }
+        public List<Locacao> Locacoes { get; private set; }
+
     }
 }

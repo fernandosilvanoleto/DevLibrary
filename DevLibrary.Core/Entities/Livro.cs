@@ -15,5 +15,6 @@ namespace DevLibrary.Core.Entities
         public ELivro LivroStatus { get; set; }        
         public int IdCategoria { get; set; }
         public Categoria Categoria { get; set; }
+        public List<Locacao> Locacoes { get; private set; }
     }
 }

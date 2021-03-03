@@ -3,7 +3,10 @@ namespace DevLibrary.Core.Enums
 {
     public enum ELocacao
     {
-        Normal = 0,
-        Atrasada = 1
+        Analise = 0,
+        Registrado = 1,
+        Atrasada = 2,
+        Alugada = 3,        
+        Cancelada = 4
     }
 }

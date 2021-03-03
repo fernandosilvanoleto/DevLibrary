@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevLibrary.Core\DevLibrary.Core.csproj" />
+    <ProjectReference Include="..\DevLibrary.Infra.Persistence\DevLibrary.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
