@@ -18,6 +18,8 @@ namespace DevLibrary.Core.Entities
 
             IdRegistroATA = idRegistroATA;
             IdLivro = idLivro;
+
+            LocacaoStatus = ELocacao.Analise;
         }
 
         public int Id { get; private set; }
@@ -52,6 +54,7 @@ namespace DevLibrary.Core.Entities
 
         public void Update(string observacao, int quantidadeLocacaoLivro, float valorMultaLivroAtual, ELocacao locacaoStatus, DateTime dataLocacao, DateTime dataEntregaPrevista, DateTime? dataEntregaUsuario, decimal? valorMulta)
         {
+            this.Observacao = observacao;
             this.QuantidadeLocacaoLivro = quantidadeLocacaoLivro;
             this.ValorMultaLivroAtual = valorMultaLivroAtual;
             this.LocacaoStatus = locacaoStatus;

@@ -11,11 +11,11 @@ namespace DevLibrary.Infrastructure.Persistence.Configurations
             builder
                 .HasKey(a => a.Id); // DEFININDO CHAVE PRIMÁRIA
 
-            builder
-                 .HasMany(a => a.Matricula) // UM ALUNO PODE TER MAIS DE UMA MATRÍCULA => ATRIBUTO ESTÁ EM "Alunos"
-                .WithOne() // UM RegistroATA VAI TER UM ALUNO RELACIONADO POR VEZ NA LINHA
-                .HasForeignKey(r => r.IdAluno) // É O FK EM "RegistroATA"
-                .OnDelete(DeleteBehavior.Restrict); // SEMPRE PREFERE O RESTRICT
+            //builder
+            //     .HasMany(a => a.Matricula) // UM ALUNO PODE TER MAIS DE UMA MATRÍCULA => ATRIBUTO ESTÁ EM "Alunos"
+            //    .WithOne() // UM RegistroATA VAI TER UM ALUNO RELACIONADO POR VEZ NA LINHA
+            //    .HasForeignKey(r => r.IdAluno) // É O FK EM "RegistroATA"
+            //    .OnDelete(DeleteBehavior.Restrict); // SEMPRE PREFERE O RESTRICT
         }
     }
 }

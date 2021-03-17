@@ -1,6 +1,6 @@
-﻿using DevLibrary.Application.InputModels;
+﻿using DevLibrary.Application.InputModels.Categoria;
 using DevLibrary.Application.Services.Interfaces;
-using DevLibrary.Application.ViewModels;
+using DevLibrary.Application.ViewModels.Categoria;
 using DevLibrary.Core.Entities;
 using DevLibrary.Infra.Persistence.Persistence;
 using System.Collections.Generic;
@@ -21,11 +21,12 @@ namespace DevLibrary.Application.Services.Implementations
             var categoria = new Categoria(inputModel.Descricao);
 
             _dbContext.Categoria.Add(categoria);
+            _dbContext.SaveChanges();
 
             return categoria.Id;
         }
 
-        public List<CategoriaViewModel> GetAll()
+        public List<CategoriaViewModel> GetAll(string query)
         {
             var categorias = _dbContext.Categoria;
 

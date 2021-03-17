@@ -5,6 +5,7 @@ namespace DevLibrary.Core.Entities
 {
     public class Categoria
     {
+        public Categoria() {}
         public Categoria(string descricao)
         {
             Descricao = descricao;

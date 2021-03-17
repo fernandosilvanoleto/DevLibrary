@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DevLibrary.Application.ViewModels
+﻿
+namespace DevLibrary.Application.ViewModels.Categoria
 {
     public class CategoriaViewModel
     {

@@ -1,13 +1,11 @@
 ﻿using DevLibrary.Core.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DevLibrary.Application.ViewModels
+namespace DevLibrary.Application.ViewModels.Locacao
 {
     public class LocacaoDetailsViewModel
     {
-        public LocacaoDetailsViewModel(int id, int quantidadeLocacaoLivro, ELocacao locacaoStatus, DateTime dataLocacao, DateTime dataEntregaPrevista, int idRegistroATA, int idLivro)
+        public LocacaoDetailsViewModel(int id, int quantidadeLocacaoLivro, ELocacao locacaoStatus, DateTime dataLocacao, DateTime dataEntregaPrevista, int idRegistroATA, int idLivro, int matricula, string nomeLivro)
         {
             Id = id;
             QuantidadeLocacaoLivro = quantidadeLocacaoLivro;
@@ -16,6 +14,8 @@ namespace DevLibrary.Application.ViewModels
             DataEntregaPrevista = dataEntregaPrevista;
             IdRegistroATA = idRegistroATA;
             IdLivro = idLivro;
+            Matricula = matricula;
+            NomeLivro = nomeLivro;
         }
 
         public int Id { get; private set; }
@@ -25,5 +25,7 @@ namespace DevLibrary.Application.ViewModels
         public DateTime DataEntregaPrevista { get; private set; }
         public int IdRegistroATA { get; private set; }
         public int IdLivro { get; private set; }
+        public int Matricula { get; private set; }
+        public string NomeLivro { get; private set; }
     }
 }

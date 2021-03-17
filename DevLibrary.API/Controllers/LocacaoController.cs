@@ -1,4 +1,4 @@
-﻿using DevLibrary.Application.InputModels;
+﻿using DevLibrary.Application.InputModels.Locacao;
 using DevLibrary.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,7 +43,7 @@ namespace DevLibrary.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = id }, createLocacao);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] UpdateLocacaoInputModel updateLocacao)
         {
             _locacao.Update(updateLocacao);
@@ -51,7 +51,7 @@ namespace DevLibrary.API.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             _locacao.Delete(id);

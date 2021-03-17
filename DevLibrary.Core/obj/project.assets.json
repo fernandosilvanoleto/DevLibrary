@@ -8,21 +8,17 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Fernando\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Fernando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
+      "projectUniqueName": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
       "projectName": "DevLibrary.Core",
-      "projectPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
+      "projectPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\obj\\",
+      "outputPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

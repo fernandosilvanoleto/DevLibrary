@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "huaprjQf5blM5phdoQBx671SLnYeq1cU1XsvjWqjfxHAAHMWkdmTYNullixqkzRwKtvv071Pbzx9fKfp4/LCpA==",
+  "dgSpecHash": "f1nr2P20cBFSM2wKzuLTVsrByFzogzRw1cmNTDmwZbIHlaQLBuLw53BsmMeN2Ps/58ZtQ5nmh70wAFG3UOidpw==",
   "success": true,
-  "projectFilePath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
+  "projectFilePath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

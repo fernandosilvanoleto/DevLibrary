@@ -118,9 +118,6 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
                     b.Property<int>("IdRegistroATA")
                         .HasColumnType("int");
 
-                    b.Property<int?>("LivroId")
-                        .HasColumnType("int");
-
                     b.Property<int>("LocacaoStatus")
                         .HasColumnType("int");
 
@@ -128,9 +125,6 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("QuantidadeLocacaoLivro")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("RegistroATAId1")
                         .HasColumnType("int");
 
                     b.Property<decimal?>("ValorMulta")
@@ -145,10 +139,6 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
 
                     b.HasIndex("IdRegistroATA");
 
-                    b.HasIndex("LivroId");
-
-                    b.HasIndex("RegistroATAId1");
-
                     b.ToTable("Locacao");
                 });
 
@@ -159,13 +149,10 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AlunoId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DataRegistro")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DataSuspensao")
+                    b.Property<DateTime?>("DataSuspensao")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("IdAluno")
@@ -174,7 +161,7 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
                     b.Property<int>("Matricula")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuantidadeSuspensaoRegistro")
+                    b.Property<int?>("QuantidadeSuspensaoRegistro")
                         .HasColumnType("int");
 
                     b.Property<int>("Situacao")
@@ -184,8 +171,6 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AlunoId");
 
                     b.HasIndex("IdAluno");
 
@@ -205,25 +190,17 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
 
             modelBuilder.Entity("DevLibrary.Core.Entities.Locacao", b =>
                 {
-                    b.HasOne("DevLibrary.Core.Entities.Livro", null)
+                    b.HasOne("DevLibrary.Core.Entities.Livro", "Livro")
                         .WithMany("Locacoes")
                         .HasForeignKey("IdLivro")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("DevLibrary.Core.Entities.RegistroATA", null)
+                    b.HasOne("DevLibrary.Core.Entities.RegistroATA", "RegistroATA")
                         .WithMany("Locacoes")
                         .HasForeignKey("IdRegistroATA")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("DevLibrary.Core.Entities.Livro", "Livro")
-                        .WithMany()
-                        .HasForeignKey("LivroId");
-
-                    b.HasOne("DevLibrary.Core.Entities.RegistroATA", "RegistroATA")
-                        .WithMany()
-                        .HasForeignKey("RegistroATAId1");
 
                     b.Navigation("Livro");
 
@@ -233,10 +210,6 @@ namespace DevLibrary.Infrastructure.Persistence.Migrations
             modelBuilder.Entity("DevLibrary.Core.Entities.RegistroATA", b =>
                 {
                     b.HasOne("DevLibrary.Core.Entities.Alunos", "Aluno")
-                        .WithMany()
-                        .HasForeignKey("AlunoId");
-
-                    b.HasOne("DevLibrary.Core.Entities.Alunos", null)
                         .WithMany("Matricula")
                         .HasForeignKey("IdAluno")
                         .OnDelete(DeleteBehavior.Restrict)

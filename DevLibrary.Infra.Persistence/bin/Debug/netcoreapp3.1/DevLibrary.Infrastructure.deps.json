@@ -9,6 +9,7 @@
       "DevLibrary.Infrastructure/1.0.0": {
         "dependencies": {
           "DevLibrary.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.3"
         },

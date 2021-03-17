@@ -3,8 +3,10 @@ namespace DevLibrary.Core.Enums
 {
     public enum EAlunos
     {
-        Ativo = 0,
-        Inativo = 1,
-        Trancado = 2
+        Análise = 0,
+        Ativo = 1,
+        Suspenso = 2,
+        Trancado = 3,
+        Excluído = 4
     }
 }

@@ -5689,21 +5689,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fernando\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Fernando\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Application\\DevLibrary.Application.csproj",
+      "projectUniqueName": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Application\\DevLibrary.Application.csproj",
       "projectName": "DevLibrary.Application",
-      "projectPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Application\\DevLibrary.Application.csproj",
+      "projectPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Application\\DevLibrary.Application.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Application\\obj\\",
+      "outputPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -5719,11 +5715,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj": {
-              "projectPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj"
+            "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj": {
+              "projectPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Core\\DevLibrary.Core.csproj"
             },
-            "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Infra.Persistence\\DevLibrary.Infrastructure.csproj": {
-              "projectPath": "G:\\Programação_Udemy\\C#\\DevLibrary\\DevLibrary.Infra.Persistence\\DevLibrary.Infrastructure.csproj"
+            "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Infra.Persistence\\DevLibrary.Infrastructure.csproj": {
+              "projectPath": "D:\\apps\\asp_net\\DevLibrary\\DevLibrary.Infra.Persistence\\DevLibrary.Infrastructure.csproj"
             }
           }
         }

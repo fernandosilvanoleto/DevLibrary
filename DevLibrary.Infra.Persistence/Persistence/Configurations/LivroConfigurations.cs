@@ -17,11 +17,11 @@ namespace DevLibrary.Infrastructure.Persistence.Configurations
                 .HasForeignKey(livro => livro.IdCategoria) // REFERENCIO A CHAVE FK EM "Livro" PARA RELACIONAR COM A CATEGORIA  => FAÇO NA TABELA Livro
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder
-                .HasMany(livro => livro.Locacoes) // UM Livro PODE ESTAR EM MAIS DE UMA Locações => ATRIBUTO ESTÁ EM "Livro"
-                .WithOne() // UMA Locacao VAI TER UM Livro RELACIONADO POR VEZ NA LINHA
-                .HasForeignKey(locacao => locacao.IdLivro) // É O FK DE Livro EM "Locacao"
-                .OnDelete(DeleteBehavior.Restrict); // SEMPRE PREFERE O RESTRICT
+            //builder
+            //    .HasMany(livro => livro.Locacoes) // UM Livro PODE ESTAR EM MAIS DE UMA Locações => ATRIBUTO ESTÁ EM "Livro"
+            //    .WithOne() // UMA Locacao VAI TER UM Livro RELACIONADO POR VEZ NA LINHA
+            //    .HasForeignKey(locacao => locacao.IdLivro) // É O FK DE Livro EM "Locacao"
+            //    .OnDelete(DeleteBehavior.Restrict); // SEMPRE PREFERE O RESTRICT
         }
     }
 }

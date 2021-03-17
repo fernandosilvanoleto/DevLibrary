@@ -1,14 +1,12 @@
-﻿using DevLibrary.Application.InputModels;
-using DevLibrary.Application.ViewModels;
-using System;
+﻿using DevLibrary.Application.InputModels.Categoria;
+using DevLibrary.Application.ViewModels.Categoria;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DevLibrary.Application.Services.Interfaces
 {
     public interface ICategoria
     {
-        List<CategoriaViewModel> GetAll();
+        List<CategoriaViewModel> GetAll(string query);
         CategoriaDetailsViewModel GetById(int id);
         int Create(CreateCategoriaInputModel inputModel);
     }

@@ -7,6 +7,7 @@ namespace DevLibrary.Core.Enums
     public enum ELivro
     {
         Disponivel = 0,
-        Indisponivel = 1
+        Indisponivel = 1,
+        Removido = 2
     }
 }

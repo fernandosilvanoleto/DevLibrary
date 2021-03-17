@@ -1,7 +1,7 @@
 ﻿using DevLibrary.Core.Enums;
 using System;
 
-namespace DevLibrary.Application.ViewModels
+namespace DevLibrary.Application.ViewModels.Locacao
 {
     public class LocacaoViewModel
     {

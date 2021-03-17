@@ -12,3 +12,17 @@ G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.csproj.CopyComplete
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.dll
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Application.deps.json
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Application.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Application.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Core.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\bin\Debug\netcoreapp3.1\DevLibrary.Infrastructure.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.csprojAssemblyReference.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.AssemblyInfoInputs.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.AssemblyInfo.cs
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.csproj.CoreCompileInputs.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.csproj.CopyComplete
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Application\obj\Debug\netcoreapp3.1\DevLibrary.Application.pdb

@@ -34,7 +34,11 @@ namespace DevLibrary.API
             services.AddDbContext<DevLibraryDbContext>(options => options.UseSqlServer(connectionString));
 
             services.AddScoped<ILocacao, LocacaoService>();
-            
+            services.AddScoped<IRegistroATA, RegistroATAService>();
+            services.AddScoped<ICategoria, CategoriaService>();
+            services.AddScoped<IAluno, AlunoService>();
+            services.AddScoped<ILivro, LivroService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

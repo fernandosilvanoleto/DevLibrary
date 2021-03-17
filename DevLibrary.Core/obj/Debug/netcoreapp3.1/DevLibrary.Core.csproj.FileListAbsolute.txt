@@ -7,3 +7,12 @@ G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\Dev
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.csproj.CoreCompileInputs.cache
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.dll
 G:\Programação_Udemy\C#\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.deps.json
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\bin\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.AssemblyInfoInputs.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.AssemblyInfo.cs
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.csproj.CoreCompileInputs.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.dll
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.pdb
+D:\apps\asp_net\DevLibrary\DevLibrary.Core\obj\Debug\netcoreapp3.1\DevLibrary.Core.csprojAssemblyReference.cache
