@@ -132,3 +132,4 @@ D:\apps\asp_net\DevLibrary\DevLibrary.API\obj\Debug\net5.0\DevLibrary.API.dll
 D:\apps\asp_net\DevLibrary\DevLibrary.API\obj\Debug\net5.0\ref\DevLibrary.API.dll
 D:\apps\asp_net\DevLibrary\DevLibrary.API\obj\Debug\net5.0\DevLibrary.API.pdb
 D:\apps\asp_net\DevLibrary\DevLibrary.API\obj\Debug\net5.0\DevLibrary.API.genruntimeconfig.cache
+D:\apps\asp_net\DevLibrary\DevLibrary.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

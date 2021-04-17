@@ -30,8 +30,12 @@ namespace DevLibrary.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevLibrary.API", Version = "v1" });
             });
 
-            var connectionString = Configuration.GetConnectionString("DevLibrary");
-            services.AddDbContext<DevLibraryDbContext>(options => options.UseSqlServer(connectionString));
+            //var connectionString = Configuration.GetConnectionString("DevLibrary"); // USO DO BANCO SQL SERVER PRÓPRIO DO VISUAL STUDIO
+            //services.AddDbContext<DevLibraryDbContext>(options => options.UseSqlServer(connectionString));
+
+            services.AddDbContext<DevLibraryDbContext>(opt => opt.UseInMemoryDatabase("Database")); // USO DO BANCO EM MEMÓRIA => BAIXAR O PACOTE EntityFrameworkCore.InMemory
+            services.AddScoped<DevLibraryDbContext, DevLibraryDbContext>();
+
 
             services.AddScoped<ILocacao, LocacaoService>();
             services.AddScoped<IRegistroATA, RegistroATAService>();
